@@ -8,8 +8,6 @@ class SingleThreadedExecutor {
 
         ExecutorService exec = Executors.newSingleThreadExecutor();
 
-        for (int i = 1; i <= 10; i++) {
-            
-        }
+        // exec.submit(null);
     }
 }
