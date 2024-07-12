@@ -11,6 +11,7 @@ public class Road {
         yellow.start();
         yellow.join();
         green.start();
-        green.join();      
+        green.join();
+        System.out.println();      
     }
 }
