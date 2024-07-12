@@ -7,7 +7,8 @@ class SingleThreadedExecutor {
         System.out.println("\nSingle Threaded Executor\n");
 
         ExecutorService exec = Executors.newSingleThreadExecutor();
+        PrintTask task = new PrintTask();
 
-        // exec.submit(null);
+        exec.submit(task);
     }
 }
