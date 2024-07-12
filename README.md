@@ -1,3 +1,3 @@
 # Java-Docs
 
-# I AM LEARNING JAVA SO I THINK WHY NOT I UPLOAD NOTES AND CODES HERE SO EVERYONE CAN LEARN FROM THAT
+# I'm always eager to learn the code 😉
