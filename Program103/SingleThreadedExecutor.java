@@ -7,5 +7,9 @@ class SingleThreadedExecutor {
         System.out.println("\nSingle Threaded Executor\n");
 
         ExecutorService exec = Executors.newSingleThreadExecutor();
+
+        for (int i = 1; i <= 10; i++) {
+            
+        }
     }
 }
