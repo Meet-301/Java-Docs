@@ -1,3 +1,1 @@
-# Java-Docs
-
-# I'm always eager to learn the code 😉
+I'm always eager to learn the code 😉
