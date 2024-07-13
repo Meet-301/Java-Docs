@@ -23,6 +23,8 @@ public class CallableExecutor {
             System.out.printf("\nFactorial of %d is: %d", n, result.get());
         } catch (Exception e) {
             System.out.println("Exception " + e.getMessage() + " occurred!!!");
+        } finally {
+            service.shutdown();
         }
 
     }

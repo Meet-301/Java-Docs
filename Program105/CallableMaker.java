@@ -13,7 +13,7 @@ class CallableMaker implements Callable<Long> {
     public Long call() throws Exception {
         long ans = 1;
         for (int i = 1; i <= num; i++) {
-            ans *= ans;
+            ans *= i;
         }
         return ans;
     }
