@@ -22,7 +22,7 @@ public class CallableExecutor {
 
         try {
             Future<Long> result = service.submit((Callable<Long>) factorial);
-            System.out.printf("\nFactorial of %d is: %s", n, result);
+            System.out.printf("\nFactorial of %d is: %s", n, result.toString());
         } catch (Exception e) {
             System.out.println("Exception " + e + " occurred!!!");
         }
