@@ -2,20 +2,19 @@ package Program105;
 
 import java.util.concurrent.Callable;
 
-class CallableMaker {
+class CallableMaker implements Callable<Long> {
     private final int num;
-    long ans = 1;
 
     CallableMaker(int num) {
         this.num = num;
     }
 
-    Callable<Long> c = new Callable<Long>() {
-        public Long call() throws Exception {
-            for (int i = 1; i <= num; i++) {
-                ans = ans*i;
-            }
-            return ans;
-        };
-    };    
+    @Override
+    public Long call() throws Exception {
+        long ans = 1;
+        for (int i = 1; i <= num; i++) {
+            ans *= ans;
+        }
+        return ans;
+    }
 }
