@@ -12,7 +12,7 @@ class CallableMaker implements Callable<Long> {
     @Override
     public Long call() throws Exception {
         long ans = 1;
-        for (int i = 1; i <= num; i++) {
+        for (int i = 2; i <= num; i++) {
             ans *= i;
         }
         return ans;
