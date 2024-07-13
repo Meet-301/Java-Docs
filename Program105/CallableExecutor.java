@@ -20,7 +20,7 @@ public class CallableExecutor {
 
         try {
             Future<Long> result = service.submit(maker);
-            System.out.printf("\nFactorial of %d is: %d", n, result.get());
+            System.out.printf("\nFactorial of %d is: %d\n\n", n, result.get());
         } catch (Exception e) {
             System.out.println("Exception " + e.getMessage() + " occurred!!!");
         } finally {
