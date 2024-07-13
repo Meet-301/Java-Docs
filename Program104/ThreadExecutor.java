@@ -22,6 +22,7 @@ public class ThreadExecutor {
         exec.shutdown();
 
         if (!exec.awaitTermination(10, TimeUnit.SECONDS)) {
+            System.out.println("EMERGENCY SHUTDOWN!!!");
             exec.shutdownNow();
         }
     }
