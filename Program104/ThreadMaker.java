@@ -6,7 +6,7 @@ public class ThreadMaker implements Runnable {
     public void run() {
         try {
             Thread.sleep(getRandom() * 1000);
-            System.out.println("\n" + Thread.currentThread().getName());
+            System.out.println(Thread.currentThread().getName() + "\n");
         } catch (InterruptedException e) {
             System.out.println("\nException " + e + " occurred!!!");
         }
