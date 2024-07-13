@@ -16,15 +16,12 @@ public class CallableExecutor {
         n = scan.nextInt();
 
         CallableMaker maker = new CallableMaker(n);
-        ExecutorService service = Executors.newSingleThreadExecutor();
 
-        try {
+        try(ExecutorService service = Executors.newSingleThreadExecutor()) {
             Future<Long> result = service.submit(maker);
             System.out.printf("\nFactorial of %d is: %d\n\n", n, result.get());
         } catch (Exception e) {
             System.out.println("Exception " + e.getMessage() + " occurred!!!");
-        } finally {
-            service.shutdown();
         }
 
     }
