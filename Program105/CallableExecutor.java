@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class CallableExecutor {
-    @SuppressWarnings({ "unchecked", "unused", "resource" })
+    @SuppressWarnings({ "unchecked", "resource" })
     public static void main(String[] args) {
 
         int n;
@@ -22,6 +22,7 @@ public class CallableExecutor {
 
         try {
             Future<Long> result = service.submit((Callable<Long>) factorial);
+            System.out.printf("\nFactorial of %d is: %s", n, result);
         } catch (Exception e) {
             System.out.println("Exception " + e + " occurred!!!");
         }
