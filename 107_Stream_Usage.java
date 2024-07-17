@@ -7,7 +7,5 @@ class Streams {
 
         // List<String> sArray = Arrays.asList("One","Two","Three");
         // sArray.stream().forEach((String m) -> System.out.println(m));
-
-        String sArray[] = {"One","Two","Unknown"};
     }
 }
