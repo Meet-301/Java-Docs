@@ -9,16 +9,13 @@ public class Tester {
 
         System.out.println("\nPrime Number Checker\n");
 
-        Functional_Interface fi = new Functional_Interface() {
-            public boolean isPrime(int n) {
-
-                for (int i = 2; i < n; i++) {
-                    if (n % i == 0) {
-                        return false;
-                    }
+        Functional_Interface fi = n -> {
+            for (int i = 2; i < n; i++) {
+                if (n % i == 0) {
+                    return false;
                 }
-                return true;
-            };
+            }
+            return true;
         };
 
         Scanner scan = new Scanner(System.in);
