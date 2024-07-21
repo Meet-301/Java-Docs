@@ -15,6 +15,7 @@ public class Tester {
                 for (int i = 2; i < n; i++) {
                     if (n % 2 == 0) {
                         prime = true;
+                        return prime;
                     }
                     else {
                         prime = false;
@@ -26,7 +27,7 @@ public class Tester {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Enter a number:");
+        System.out.print("Enter a number: ");
         int n = scan.nextInt();
     
         boolean primeNum = fi.isPrime(n);
