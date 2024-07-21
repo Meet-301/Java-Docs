@@ -5,12 +5,19 @@ class FunctionalProceduralDemo {
 
         System.out.println("\nFactorial Using Functional and Procedural Programming\n");
 
-        // Using 
+        // Using Procedural Code
+        System.out.println("Procedural Code\n");
         System.out.print("Enter a number: ");
         int n = VariableScanner.scanInt(true);
 
         for (i = n; i > 0; i--) {
             fact = fact * i;
         }
+
+        System.out.printf("\nFactorial of %d is %d\n",n,fact);
+
+        // Using Functional Code
+        
+
     }
 }
