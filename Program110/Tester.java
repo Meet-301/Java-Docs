@@ -11,12 +11,13 @@ public class Tester {
 
         Functional_Interface fi = new Functional_Interface() {
             public boolean isPrime(int n) {
+
                 for (int i = 2; i < n; i++) {
                     if (n % i == 0) {
-                        return true;
+                        return false;
                     }
                 }
-                return false;
+                return true;
             };
         };
 
@@ -24,13 +25,13 @@ public class Tester {
 
         System.out.print("Enter a number: ");
         int n = scan.nextInt();
-    
+
         boolean primeNum = fi.isPrime(n);
 
         if (primeNum) {
-            System.out.printf("%s is prime number",n);
+            System.out.printf("%s is a prime number", n);
         } else {
-            System.out.printf("%s isn't a prime number",n);
+            System.out.printf("%s isn't a prime number", n);
         }
     }
 }
