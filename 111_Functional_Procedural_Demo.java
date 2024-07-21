@@ -1,3 +1,5 @@
+import java.util.List;
+
 class FunctionalProceduralDemo {
     public static void main(String args[]) {
 
@@ -17,7 +19,8 @@ class FunctionalProceduralDemo {
         System.out.printf("\nFactorial of %d is %d\n",n,fact);
 
         // Using Functional Code
-        
+        List<Integer> list = List.of(n);
 
+       
     }
 }
