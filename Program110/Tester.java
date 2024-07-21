@@ -26,7 +26,7 @@ public class Tester {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a number:");
+        System.out.print("Enter a number:");
         int n = scan.nextInt();
     
         boolean primeNum = fi.isPrime(n);
