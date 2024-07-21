@@ -1,0 +1,4 @@
+interface Functional_Interface {
+
+    
+}
