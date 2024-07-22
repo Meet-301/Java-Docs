@@ -14,7 +14,7 @@ class FunctionalProceduralDemo {
         int n = VariableScanner.scanInt(true);
 
         for (i = n; i > 0; i--) {
-            fact = fact * i;
+            fact *= i;
         }
 
         System.out.printf("\nFactorial of %d is %d\n",n,fact);
