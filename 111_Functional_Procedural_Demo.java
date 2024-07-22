@@ -20,8 +20,9 @@ class FunctionalProceduralDemo {
         System.out.printf("\nFactorial of %d is %d\n",n,fact);
 
         // Using Functional Code
-        IntStream.rangeClosed(2, n).reduce((a,b) -> a*b);
+        IntStream.rangeClosed(2, n)
+        .reduce((a,b) -> a*b)
+        .ifPresent(System.out::println);
         
-       
     }
 }
