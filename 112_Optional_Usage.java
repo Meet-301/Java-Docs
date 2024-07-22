@@ -2,7 +2,6 @@ import java.util.Optional;
 
 class OptionalUsage {
 
-    @SuppressWarnings("static-access")
     Optional<String> setOptional(String str) {
 
         Optional<String> val = Optional.empty();
