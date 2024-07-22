@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.stream.IntStream;
 
 class FunctionalProceduralDemo {
     public static void main(String args[]) {
@@ -19,8 +20,8 @@ class FunctionalProceduralDemo {
         System.out.printf("\nFactorial of %d is %d\n",n,fact);
 
         // Using Functional Code
-        List<Integer> list = List.of(n);
-
+        IntStream range = IntStream.rangeClosed(1, 5);
+        range.iterator();
        
     }
 }
