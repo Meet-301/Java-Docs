@@ -7,10 +7,7 @@ class OptionalUsage {
 
         Optional<String> val = Optional.empty();
 
-        if (!str.isEmpty()) {
-            val.of(str);
-            return val;   
-        }
+        
 
         return val;
     }
