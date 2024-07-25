@@ -8,5 +8,7 @@ public class TestingEmployee {
 
         List<Employee> employees = List.of(new Employee("Meet", 78000),
         new Employee("Viraj", 87000),new Employee("K.C", 81000));
+
+        employees.stream().sorted();
     }
 }
