@@ -9,6 +9,6 @@ class IntermediateOperations {
 
         List<Integer> newList = list.stream().distinct().collect(Collectors.toList());
 
-        System.out.println();
+        System.out.println(newList);
     }
 }
