@@ -9,6 +9,6 @@ public class TestingEmployee {
         List<Employee> employees = List.of(new Employee("Meet", 78000),
         new Employee("Viraj", 87000),new Employee("K.C", 81000));
 
-        employees.stream().sorted();
+        employees.stream().sorted((emp1,emp2) -> Integer.compare(emp1.getSalary(), emp2.getSalary()));
     }
 }
