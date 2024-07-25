@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "IntermediateOperations",
+            "request": "launch",
+            "mainClass": "IntermediateOperations",
+            "projectName": "Challenges KGCoding_8b58c5bc"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
