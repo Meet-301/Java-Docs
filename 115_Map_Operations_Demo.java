@@ -5,5 +5,6 @@ class MapOperationDemo {
         System.out.println("\nMap Operation Demo\n");
 
         List<String> numbers = List.of("1","2","3");
+        numbers.stream().forEach(Integer::parseInt);
     }
 }
