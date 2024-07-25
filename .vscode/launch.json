@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestingEmployee",
+            "request": "launch",
+            "mainClass": "Program114.TestingEmployee",
+            "projectName": "Challenges KGCoding_8b58c5bc"
+        },
+        {
+            "type": "java",
             "name": "IntermediateOperations",
             "request": "launch",
             "mainClass": "IntermediateOperations",
