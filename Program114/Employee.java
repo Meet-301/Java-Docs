@@ -1,6 +1,6 @@
 package Program114;
 
-class ComparatorImplementation {
+class Employee {
 
     public static void main(String[] args) {
         
