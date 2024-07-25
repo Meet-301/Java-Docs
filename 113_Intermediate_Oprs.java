@@ -10,5 +10,7 @@ class IntermediateOperations {
         List<Integer> newList;
 
         newList = list.stream().distinct().collect(Collectors.toList());
+
+        newList.forEach(System.out::println);
     }
 }
