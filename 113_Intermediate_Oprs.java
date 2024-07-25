@@ -7,10 +7,8 @@ class IntermediateOperations {
 
         List<Integer> list = List.of(1,2,3,4,3,2);
 
-        List<Integer> newList;
+        List<Integer> newList = list.stream().distinct().collect(Collectors.toList());
 
-        newList = list.stream().distinct().collect(Collectors.toList());
-
-        newList.forEach(System.out::println);
+        System.out.println();
     }
 }
