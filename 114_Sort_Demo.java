@@ -7,6 +7,10 @@ class SortMethodDemo {
 
         Map<String,Integer> map = new HashMap<>();
 
-        map.
+        map.put("Meet",78000);
+        map.put("Viraj",87000);
+        map.put("K.C",450000);
+
+        
     }
 }
