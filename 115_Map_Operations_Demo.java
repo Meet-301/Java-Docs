@@ -6,6 +6,6 @@ class MapOperationDemo {
 
         List<String> numbers = List.of("1","2","3");
 
-        numbers.stream().map(Integer::parseInt).map(num -> num ^2);
+        numbers.stream().map(Integer::parseInt).map(num -> num ^2).forEach(System.out::println);
     }
 }

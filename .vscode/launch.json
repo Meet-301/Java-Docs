@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MapOperationDemo",
+            "request": "launch",
+            "mainClass": "MapOperationDemo",
+            "projectName": "Challenges KGCoding_8b58c5bc"
+        },
+        {
+            "type": "java",
             "name": "TestingEmployee",
             "request": "launch",
             "mainClass": "Program114.TestingEmployee",
