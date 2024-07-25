@@ -1,4 +1,6 @@
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 class IntermediateOperations {
     public static void main(String args[]) {
@@ -6,6 +8,6 @@ class IntermediateOperations {
 
         List<Integer> list = List.of(1,2,3);
 
-        
+        list.stream().distinct().collect(Collectors.toList());
     }
 }
