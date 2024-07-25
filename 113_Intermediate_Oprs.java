@@ -8,6 +8,8 @@ class IntermediateOperations {
 
         List<Integer> list = List.of(1,2,3);
 
-        list.stream().distinct().collect(Collectors.toList());
+        List<Integer> newList;
+
+        newList = list.stream().distinct().collect(Collectors.toList());
     }
 }
