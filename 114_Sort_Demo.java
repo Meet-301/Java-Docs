@@ -6,5 +6,7 @@ class SortMethodDemo {
         System.out.println("\nSort Method Demo\n");
 
         Map<String,Integer> map = new HashMap<>();
+
+        map.
     }
 }
