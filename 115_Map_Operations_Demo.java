@@ -8,6 +8,6 @@ class MapOperationDemo {
 
         numbers.stream().forEach(Integer::parseInt);
 
-        
+        numbers.stream().map(null);
     }
 }
