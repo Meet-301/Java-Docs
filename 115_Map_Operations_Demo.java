@@ -1,4 +1,4 @@
-class test {
+class MapOperationDem {
     public static void main(String args[]) {
         System.out.println();
     }
