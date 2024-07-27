@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex8",
+            "request": "launch",
+            "mainClass": "Ex8",
+            "projectName": "Challenges KGCoding_8b58c5bc"
+        },
+        {
+            "type": "java",
             "name": "Ex4",
             "request": "launch",
             "mainClass": "Ex4",
