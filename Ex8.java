@@ -5,6 +5,8 @@ class Ex8 {
         System.out.print("Enter array size: ");
         int size = VariableScanner.scanInt(true);
 
+        int n[] = new int[size];
+
         
     }
 }
