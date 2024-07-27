@@ -7,6 +7,9 @@ class Ex8 {
 
         int n[] = new int[size];
 
-        
+        System.out.println("Enter "+size+" elements");
+        for (int i = 0; i < n.length; i++) {
+            n[i] = VariableScanner.scanInt(true);
+        }
     }
 }
