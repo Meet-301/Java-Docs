@@ -28,5 +28,7 @@ class Ex4 {
                 others++;
             }
         }
+
+        System.out.printf("Letters: %d");
     }
 }
