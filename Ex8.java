@@ -6,7 +6,7 @@ class Ex8 {
         int rows = VariableScanner.scanInt(true);
 
         for (int i = 0; i < rows; i++) {
-            System.out.println("    ");
+            // System.out.println("    ");
             for (int j = 0; j <= i; j++) {
                 System.out.print("    ");
                 System.out.print((i+1)+" ");
