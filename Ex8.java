@@ -8,6 +8,7 @@ class Ex8 {
         for (int i = 0; i < rows; i++) {
             System.out.println("    ");
             for (int j = 0; j <= i; j++) {
+                System.out.print("    ");
                 System.out.print((i+1)+" ");
             }
             System.out.println();
