@@ -17,18 +17,16 @@ class Ex4 {
         for (int c2 = 0; c2 < c.length; c2++) {
             if (Character.isLetter(c[c2])) {
                 letters++;
-            }
-            else if (Character.isWhitespace(c[c2])) {
+            } else if (Character.isWhitespace(c[c2])) {
                 spaces++;
-            }
-            else if (Character.isDigit(c[c2])) {
+            } else if (Character.isDigit(c[c2])) {
                 numbers++;
-            }
-            else {
+            } else {
                 others++;
             }
         }
 
-        System.out.printf("Letters: %d");
+        System.out.printf("Letters: %d, Spaces: %d, Numbers: %d, Other Characters: %d", letters, spaces, numbers,
+                others);
     }
 }
