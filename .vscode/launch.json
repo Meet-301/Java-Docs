@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex4",
+            "request": "launch",
+            "mainClass": "Ex4",
+            "projectName": "Challenges KGCoding_8b58c5bc"
+        },
+        {
+            "type": "java",
             "name": "MapOperationDemo",
             "request": "launch",
             "mainClass": "MapOperationDemo",
