@@ -10,6 +10,7 @@ class Ex8 {
             for (int j = 0; j < i; j++) {
                 System.out.println(i+" ");
             }
+            System.out.println();
         }
     }
 }
